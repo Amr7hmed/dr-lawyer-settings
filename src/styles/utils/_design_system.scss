@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+
+  
+
+
+  /* Font */
+  --font-family-default: 'Cairo', sans-serif;
+
+}
+
+
+:root {
+  --color-background-light: #F1F4FB;
+  --color-background-white: #ffffff;
+  --color-background-green: #00c853;
+  --color-background-warning: #FFF4E5;
+  --color-background-danger: #FFE5DF;
+  --color-background-success: #E6F7EC;
+  --color-background-neutral: #F0F0F5;
+  --color-background-fund: #FDF4E3;
+
+  --colors-linK-g-200: #818CA3;
+  --colors-linK-g-600: #642329;
+  --color-text-danger: #FF5732;
+  --color-text-success: #00A854;
+  --color-text-dark: #212121;
+  --color-text-gray: #777;
+  --color-text-gray-light: #888;
+  --color-text-warning: #D48806;
+  --color-text-fund: #b52b2b;
+  --color-text-neutral: #555;
+
+  --color-withdraw-btn: #5b2e2e;
+  --color-border-light: #E6E6E6;
+  --color-border-neutral: #D3DAEA;
+  --color-border-table: #e0e0e0;
+  --color-history-amount: red;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 6px;
+  --spacing-md: 10px;
+  --spacing-lg: 20px;
+  
+}
+
+
+*{
+    box-sizing: border-box !important;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    color: var(--text-sys-primary-heavy);
+    font-family: var(--font-family-default);
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    font-family: var(--font-family-default);
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.4375rem;
+}
+
+
+a{
+    text-decoration: none;
+}
