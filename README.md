@@ -27,12 +27,12 @@ The project focuses on **clean UI**, **responsive design**, and **maintainable c
 ---
 
 ## 📂 Project Structure
-src/
-├── assets/ # Static files (images, icons, etc.)
-├── components/ # Reusable UI components
-├── pages/ # Page-level components
-├── styles/ # Global SASS styles
-└── main.tsx # Entry point
+src
+assets/ # Static files (images, icons, etc.)
+components/ # Reusable UI components
+pages/ # Page-level components
+styles/ # Global SASS styles
+main.tsx # Entry point
 
 
 
